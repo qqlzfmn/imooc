@@ -1,8 +1,4 @@
-#!/usr/bin/env python2
-# -*- coding: UTF-8 -*-
-import urllib
 class HtmlOutputer(object):
-
     def __init__(self):
         self.datas = []
 
@@ -17,7 +13,6 @@ class HtmlOutputer(object):
         fout.write('<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>')
         fout.write("<body>")
         fout.write("<table>")
-
         for data in self.datas:
             fout.write("<tr>")
             fout.write("<td>%s</td>" % data['url'])

@@ -1,5 +1,3 @@
-#!/usr/bin/env python2
-# -*- coding: UTF-8 -*-
 class UrlManager(object):
     def __init__(self):
         self.new_urls = set()
