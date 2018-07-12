@@ -2,7 +2,7 @@
 
 目录结构如下：
 
-```py
+```
 imooc：所有在慕课网学习时进行的练习
 	├─closure&decorator：Python闭包和装饰器
 	├─MachineLearning：机器学习和sklearn库
